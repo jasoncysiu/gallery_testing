@@ -4,20 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonxsiu/Gallery.git"
+    "url": "git+https://github.com/jasonxsiu/gallery_testing.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jasonxsiu/Gallery/issues"
+    "url": "https://github.com/jasonxsiu/gallery_testing/issues"
   },
-  "homepage": "https://github.com/jasonxsiu/Gallery#readme",
+  "homepage": "https://github.com/jasonxsiu/gallery_testing#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
     "ejs": "^3.1.6",
